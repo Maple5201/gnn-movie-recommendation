@@ -4,7 +4,7 @@ An experimental movie recommendation project using graph neural networks and con
 
 This project is based on my published paper:
 
-**Movie Recommendation System Based on Graph Neural Network and Contextual Information**
+**Movie Recommendation System Based on Graph Neural Network and Contextual Information**  
 DOI: `10.61173/7e0att59`
 
 ## Tech Stack
@@ -22,7 +22,7 @@ DOI: `10.61173/7e0att59`
 ## Project Structure
 
 ```text
-gnn_movie_recommendation/
+gnn-movie-recommendation/
 ├── data/
 │   ├── sample_links_1000.csv
 │   ├── sample_movies_1000.csv
@@ -71,6 +71,20 @@ The project also includes data exploration and visualisation scripts for underst
 In the reported experiment, adding temporal contextual information improved RMSE from **1.51** to **1.45**.
 
 The project also compares the GNN model against a collaborative filtering baseline using RMSE across five folds.
+
+## Visualisations
+
+### RMSE Comparison
+![RMSE Comparison](results/gnn_cf_comparison_chart.png)
+
+### Rating Distribution
+![Rating Distribution](results/rating_distribution.png)
+
+### Movie Genres
+![Movie Genres](results/movies_per_genre.png)
+
+### User Rating Count
+![User Rating Count](results/user_rating_count_boxplot.png)
 
 ## How to Run
 
